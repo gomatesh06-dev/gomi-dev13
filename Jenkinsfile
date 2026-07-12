@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('print') {
             steps {
-               sh ' echo 'branch 3''
-        stage('pring') {
+               sh ' echo "branch 3"'
+        stage('print') {
             steps {
-               sh ' echo 'repo 2''
+              sh 'echo "brnach main"'
             }
         }
 
