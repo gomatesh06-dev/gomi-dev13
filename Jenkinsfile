@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('print') {
             steps {
+               sh ' echo "branch 2"'
                sh ' echo "branch 3"'
         stage('print') {
             steps {
